@@ -1,77 +1,37 @@
-body {
-  font-family: 'Inter', sans-serif;
-  margin: 0;
-  background: #f4f7fb;
-  color: #1f2937;
-}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Recursos Terapêuticos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-header {
-  background: white;
-  padding: 16px 24px;
-  position: sticky;
-  top: 0;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-}
+<header>
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="tcc.html">TCC</a>
+    <a href="crise.html">Crise</a>
+    <a href="sobre.html">Sobre</a>
+  </nav>
+</header>
 
-nav {
-  display: flex;
-  gap: 16px;
-}
+<div class="container">
 
-nav a {
-  text-decoration: none;
-  color: #374151;
-  font-weight: 500;
-}
+<h1>Recursos para seu processo terapêutico</h1>
+<p>Materiais simples para te apoiar entre sessões.</p>
 
-.container {
-  max-width: 900px;
-  margin: auto;
-  padding: 24px;
-}
+<div class="card">
+⚠️ Este conteúdo não substitui acompanhamento psicológico.
+</div>
 
-h1 {
-  font-size: 28px;
-  margin-bottom: 10px;
-}
+<div class="grid">
+  <a class="button" href="ansiedade.html">Ansiedade</a>
+  <a class="button" href="depressao.html">Depressão</a>
+  <a class="button" href="tcc.html">TCC</a>
+  <a class="button" href="crise.html">Crise</a>
+</div>
 
-.card {
-  background: white;
-  padding: 20px;
-  border-radius: 16px;
-  margin-bottom: 16px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.05);
-}
+</div>
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: 16px;
-  margin-top: 20px;
-}
-
-.button {
-  background: #4a90e2;
-  color: white;
-  padding: 16px;
-  text-align: center;
-  border-radius: 14px;
-  text-decoration: none;
-  font-weight: 500;
-  transition: 0.2s;
-}
-
-.button:hover {
-  background: #357ab8;
-}
-
-.back {
-  display: inline-block;
-  margin-top: 20px;
-  color: #4a90e2;
-  text-decoration: none;
-}
-
-iframe {
-  border-radius: 12px;
-}
+</body>
+</html>
